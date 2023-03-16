@@ -1,0 +1,37 @@
+{
+  "name": "extra-node-programacion-cli",
+  "version": "1.0.0",
+  "description": "Proyecto CLI para generar proyectos mediante comandos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programacionparaaprender/extra-node-programacion-cli.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "ts",
+    "javascript",
+    "typescript",
+    "mocha"
+  ],
+  "author": "Programación para Aprender",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/programacionparaaprender/extra-node-programacion-cli/issues"
+  },
+  "bin": {
+    "npm-cli-programacion-creator": "./index.js"
+  },
+  "homepage": "https://github.com/programacionparaaprender/extra-node-programacion-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ejs": "^2.6.1",
+    "inquirer": "^6.3.1",
+    "shelljs": "^0.8.3"
+  }
+}
