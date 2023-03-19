@@ -4,13 +4,55 @@
     <title>Componentes en archivos separados</title>
 
 </head>
+<style>
+    .ejemplo {
+        display: grid;
+        grid-gap: 1rem;
+        height: 100vh;
+        grid-template-columns: 1fr 6rem;
+    }
+    .card {
+        background-color: white;
+        border: #ccc solid 1px;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .bordeRojo {
+        padding:1rem;
+        border: red solid 1px;
+    }
+    .bordeVerde {
+        padding: 1rem;
+        border: green solid 1px;
+    }
+    .divider1 {
+        display: block;
+        height: 1rem;
+        width: 100%;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 30pt;
+        font-weight: bold;
+    }
+</style>
 <body>
     <!-View-->
-    <modal1></modal1>
-    <modal2></modal2>
-    <modal3></modal3>
-    <!--ko component: { name: "modal4", params:{ firstname:"prueba", lastname:"ejemplo" } }  -->
-    <!--/ko-->
+    <div class="divider1"></div>
+    <div class="card">
+        <div class="titulo">Título de ejemplo</div>
+        <div class="divider1"></div>
+        <div class="ejemplo">
+            <modal1 class="bordeRojo"></modal1>
+            <modal2 class="bordeVerde"></modal2>
+            <modal3 class="bordeRojo"></modal3>
+            <modal1 class="bordeVerde"></modal1>
+            <div class="bordeRojo">
+                <!--ko component: { name: "modal4", params:{ firstname:"prueba", lastname:"ejemplo" } }  -->
+                <!--/ko-->
+            </div>
+        </div>
+    </div>
     <script src="scripts/jquery-1.11.3.min.js" type="text/javascript"></script>
     <!--View Ends-->
     <script src="scripts/knockout-3.3.0.js"></script>
