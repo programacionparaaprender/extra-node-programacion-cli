@@ -1,6 +1,6 @@
 {
   "name": "extra-node-programacion-cli",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Proyecto CLI para generar proyectos mediante comandos",
   "main": "index.js",
   "scripts": {

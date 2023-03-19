@@ -7,7 +7,7 @@ Este generador servirÃ¡ para crear proyectos NPM de Javascript y Typescript basÃ
 * NPM >= 6.0.0
 
 # Install
-```npm install -g node-cli-generator-project```
+```npm install -g extra-node-programacion-cli```
 # Usage
 Ejecutamos esta orden
 ```npm-cli-project-creator```
