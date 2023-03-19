@@ -10,7 +10,7 @@ Este generador servir√° para crear proyectos NPM de Javascript y Typescript bas√
 ```npm install -g extra-node-programacion-cli```
 # Usage
 Ejecutamos esta orden
-```npm-cli-project-creator```
+```npm-cli-programacion-creator```
 
 
 # paquetes a instalar
