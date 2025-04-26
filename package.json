@@ -31,6 +31,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "ejs": "^2.6.1",
+    "extra-node-programacion-cli": "file:",
     "inquirer": "^6.3.1",
     "shelljs": "^0.8.3"
   }

@@ -1,3 +1,9 @@
+## curso 
+>- https://www.udemy.com/course/npm-librerias-node-con-js-typescript-angular-y-otras-herramientas/?couponCode=SKILLS4SALEA#overview
+
+
+
+
 ## Generador de proyectos NPM
 
 Este generador servirá para crear proyectos NPM de Javascript y Typescript basándonos en los proyectos de librería desarrollados en este curso.
